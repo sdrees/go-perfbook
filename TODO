@@ -68,6 +68,9 @@
   - https://segment.com/blog/allocation-efficiency-in-high-performance-go-services/
   - https://www.cockroachlabs.com/blog/how-to-optimize-garbage-collection-in-go/
   - https://hashrocket.com/blog/posts/go-performance-observations
+	- https://lists.freebsd.org/pipermail/freebsd-current/2010-August/019310.html
+	- https://marcellanz.com/post/file-read-challenge/
+	- https://boyter.org/posts/sloc-cloc-code/
 
 cgo:
     cgo has overhead
@@ -77,7 +80,6 @@ cgo:
     really think if you want cgo: http://dave.cheney.net/2016/01/18/cgo-is-not-go
     https://www.youtube.com/watch?v=lhMhApWQp2E : cgo gophercon
     cgo performance tracking bug: https://github.com/golang/go/issues/9704
-
 
 videos:
     https://gophervids.appspot.com/#tags=optimization
@@ -127,6 +129,9 @@ videos:
     CppCon 2015: Bryce Adelstein-Lelbach “Benchmarking C++ Code"
     https://www.youtube.com/watch?v=zWxSZcpeS8Q
 
+		CppCon 2018: Fedor Pikus “Design for Performance”
+    https://www.youtube.com/watch?v=m25p3EtBua4
+
 asm:
     https://golang.org/doc/asm
     https://goroutines.com/asm
@@ -139,6 +144,7 @@ asm:
     minio posts + tooling
     https://github.com/teh-cmc/go-internals/blob/master/chapter1_assembly_primer/README.md
     https://blog.hackercat.ninja/post/quick_intro_to_go_assembly/
+		https://quasilyte.dev/blog/post/go-asm-complementary-reference/
 
 posts:
     http://www.eecs.berkeley.edu/~rcs/research/interactive_latency.html
@@ -184,7 +190,6 @@ papers:
     https://www.akkadia.org/drepper/cpumemory.pdf
     https://software.intel.com/sites/default/files/article/392271/aos-to-soa-optimizations-using-iterative-closest-point-mini-app.pdf
 
-
 optimization guides:
     http://developer.amd.com/resources/developer-guides-manuals/
     http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.uan0015b/index.html
@@ -222,3 +227,6 @@ The key to performance is elegance, not battalions of special cases.
 
 You’re bound to be unhappy if you optimize everything.
         — Donald Knuth
+
+You'll never know how bad things are until you look.
+				- Howard Chu
